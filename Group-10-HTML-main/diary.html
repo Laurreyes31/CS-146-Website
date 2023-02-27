@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset= "utf-8" />
+<title>Sleep Tight</title>
+<meta name="viewport" content="width=device-width" />
+<link rel="stylesheet" href="css/mobile.css" media="screen and (max-width:480px)"/>
+<link rel="stylesheet" href="css/tablet.css" media="screen and  (min-width:481px) and (max-width: 768px)"/>
+<link rel="stylesheet" href="css/main.css" media="screen and  (min-width:769px)"/> <!--desktop-->
+<link rel = "icon" href= "images/moon.png">
+<script src = 'java.js'></script>
+</head>
+<body>
+	<header>
+		<h1 class = "banner">Sleep Diary</h1>
+		<nav>
+			<div class ="navbar">
+				<a href ="index.html">Home</a>
+				<a href ="diary.html" class = "current">Sleep Diary</a>
+				<a href="contacts.html">Contacts</a>
+				<a href ="shop.html">Shop</a>
+				<a href="aboutUs.html">About Us</a>
+			</div>
+				</nav>
+	</header>
+	<main>
+		<div class = "enter">
+		<h2 class = "heading">Please enter your sleep diary entry here:</h2>
+  			<textarea name = "diary-post" id = 'text' class ='textBox'  rows= "10" cols= "40" required></textarea>
+  			<button type="submit" onclick = 'sleepLog()'class = 'textBox' class = 'textInput'>Log it Up!</button>
+		</div>
+		<div class = "Previous">
+		<h2 class = 'heading'>View most recent entry</h2>
+			<div class = 'entry' id = 'recent' class = 'recent'>No Recent Posts</div>
+		<h2 class = "heading" > View previous entries</h2>
+		<ul id = 'posts'>
+			
+		</ul>
+		</div>
+		<h2 class = 'heading'>Alarm Clock</h2>
+		<input id="alarmTime" type="datetime-local" class = 'textBox'>
+		<button id="alarmButton" class= 'textBox' onclick="setAlarm(this);">Set Alarm</button>
+		<div id="alarmOptions" class= 'textBox' style="display: none;">
+			<button onclick="stopAlarm();">Stop Alarm</button>
+		</div>
+
+	</main>
+	<footer>
+</footer>
+</body>
+</html>

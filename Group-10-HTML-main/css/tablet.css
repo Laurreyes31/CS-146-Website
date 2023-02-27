@@ -1,0 +1,229 @@
+nav {
+    background-color: aqua;
+    }
+.navbar {
+    float: center;
+    text-align: center;
+    padding: 10px 25px;
+    font-size: 15px;
+    background-color: aqua;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.navbar a:hover{
+    color: red;
+}
+.current{
+    font-size: 20px;
+    font-style: italic;
+}
+.current{
+    font-size: 17px;
+    font-style: italic;
+    text-decoration: underline;
+    color: purple;
+}
+a{ 
+    text-decoration: none;
+    text-emphasis-color: black;
+}
+.banner {
+    text-align: center;
+    font-size: 30px;
+    color: red;
+}
+/**New added conflict*/
+.heading{
+    text-align: center;
+    font-size: 20px;
+    border-radius: 20px;
+    background:purple;
+    margin-right: 25%;
+    margin-left: 25%
+
+}
+/**
+.articleImage{
+    display:block;
+    width: 500px;
+    height: 350px;
+    margin-left: auto;
+    margin-right:auto;
+}
+**/
+figcaption{
+    text-align: right;
+    font-size: 10px;
+    color:red;
+}
+/**New added conflict*/
+a:link {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+
+body{
+    background-color: rgb(1, 1, 65);
+    /*
+    background-image: url(../images/free-stars-pattern-vectors.jpg);
+    background-repeat: repeat;
+    */
+    color: white;
+}
+
+.main_section{
+    display: flex;
+    flex-direction: column;
+}
+.main_section>article{
+    flex:1 1 70%;
+    border: 2px solid white;
+    margin-top: 10px;
+    margin-left:2%;
+}
+.main_section>article>figure{
+    float:left;
+    width:70%;
+    margin: 10px 5px 0px 5px;
+    
+}
+.main_section>article>p{
+    float:left;
+    width:23%;
+    height:170px;                 /*Controls the height of the paragraph block. Text can overflow box. Put border around it. Height should be based on the image- but no time*/
+    overflow:hidden;/*The height is specified earlier- hide text that is overflowed*/
+    padding: 0px 10px;
+    margin-top: 10px;
+}
+.main_section article h1{
+    text-align: center;
+    
+}
+.main_section>aside{
+    display: flex;
+    flex:1 1 30%;
+    flex-direction: row;
+    border: 2px solid white;
+    margin-top: 10px;
+}
+.main_section aside h2{
+    text-align: center;
+}
+
+img {
+    width: 96%;
+    height: auto;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+  }
+
+  h2 {
+    display: block;
+    font-size: 18px;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+  }
+
+  .entry {
+    border-radius: 5px;
+    background:cyan;
+    color: black;
+    margin-bottom: 50px;
+    margin-right: 10%;
+    margin-left:10%;
+    font-size: 18px;
+  }
+ .textBox{
+      display: flex;
+      flex-direction: row ;
+      justify-content: center;
+      margin:auto;
+  }
+
+  .recent{
+    text-align:center;
+  }
+
+  .textInput{
+    width: 50%;
+  }
+
+  .container{
+      display: flex;
+      flex-direction: column;
+      min-height: 100%;
+  }
+  .container > div{
+      display: flex;
+      flex-basis: 45%;
+      flex-direction: column;
+      justify-content: center;
+      margin-top: 4%;
+      margin-left: 2%;
+      margin-right: 2%;  
+      border-radius: 5px;
+      text-align: center;
+    background:cyan;
+    color: black;
+  }
+
+  .name {
+        text-align: center;
+        font-size: 25px;
+        color: purple;
+        margin-right: 25%;
+        margin-left: 25%
+  }
+
+  .ProductImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+  }
+  .products h2{
+      text-align:center;
+  }
+
+  .ContactImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+  }
+  .contacts{
+    border-bottom: 4px solid white;
+    overflow: hidden;
+}
+.products{
+    border-bottom: 4px solid white;
+    overflow: hidden;
+}
+
+
+  .contacts h2{
+      text-align:center
+  }

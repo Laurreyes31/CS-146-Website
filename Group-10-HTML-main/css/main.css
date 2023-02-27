@@ -1,0 +1,220 @@
+/*
+    Made by: Dominick Battinelli, Tony Huang, Aiden Boyce, Laurent Reyes
+    " I pledge my honor that I have abided by the Stevens Honor System" - Group 10
+*/
+nav {
+    background-color: aqua;
+    }
+.navbar {
+    float: center;
+    text-align: center;
+    padding: 10px 25px;
+    font-size: 25px;
+    background-color: aqua;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.navbar a:hover{
+    text-decoration: underline;
+}
+.current{
+    font-size: 30px;
+    font-style: italic;
+    text-decoration: underline;
+    color: purple;
+}
+a{ 
+    text-decoration: none;
+    text-emphasis-color: black;
+}
+.banner {
+    text-align: center;
+    font-size: 50px;
+    color: red;
+}
+/**New added conflict*/
+.heading{
+    text-align: center;
+    font-size: 25px;
+    border-radius: 20px;
+    background:purple;
+    margin-right: 25%;
+    margin-left: 25%
+
+}
+/**
+.articleImage{
+    display:block;
+    width: 500px;
+    height: 350px;
+    margin-left: auto;
+    margin-right:auto;
+}
+**/
+figcaption{
+    text-align: right;
+    font-size: 15px;
+    color:red;
+}
+/**New added conflict*/
+a:link {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+body{
+    background-color: rgb(11, 1, 65);
+    /*
+    background-image: url(../images/free-stars-pattern-vectors.jpg);
+    background-repeat: repeat;
+    */
+    color: white;
+}
+
+.main_section{
+    display: flex;
+    flex-direction: row;
+}
+.main_section>article{
+    flex:1 1 70%;
+    border: 2px solid white;
+    margin-top: 10px;
+}
+.main_section>article>p{
+    padding: 0px 10px;
+    margin-top: 10px;
+}
+.main_section article h1{
+    text-align: center;
+    
+}
+.main_section>aside{
+    display: flex;
+    flex:1 1 30%;
+    flex-direction: column;
+    border: 2px solid white;
+    margin-top: 10px;
+}
+.main_section aside h2{
+    text-align: center;
+}
+
+img {
+    width: 96%;
+    height: auto;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+  }
+
+  h2 {
+    display: block;
+    font-size: 1em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+  }
+
+  .entry {
+    border-radius: 5px;
+    background:cyan;
+    color: black;
+    margin-bottom: 100px;
+    margin-right: 25%;
+    margin-left:25%;
+    font-size: 18px;
+  }
+  .textBox{
+      display: flex;
+      flex-direction: row ;
+      justify-content: center;
+      margin:auto;
+  }
+
+  .recent{
+    text-align:center;
+  }
+
+  .textInput{
+    width: 50%;
+  }
+
+ 
+
+  .container{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      min-height: 100%;
+  }
+  .container > div{
+      display: flex;
+      flex-basis: 45%;
+      flex-direction: column;
+      justify-content: center;
+      margin-top: 5%;
+      margin-bottom: 5%;
+      margin-left: 5%;  
+      border-radius: 5px;
+      text-align: center;
+    background:cyan;
+    color: black;
+  }
+
+  .name {
+        text-align: center;
+        font-size: 25px;
+        color: purple;
+        margin-right: 25%;
+        margin-left: 25%
+  }
+
+
+  .ProductImage{
+    float:left;
+    width: 8%;
+    height: auto;
+    margin-right: 10px;
+  }
+  .products h2{
+      text-align:center;
+  }
+
+  .ContactImage{
+    float:left;
+    width: 8%;
+    height: auto;
+    margin-right: 10px;
+  }
+
+  .contacts{
+      border-bottom: 4px solid white;
+      overflow: hidden;
+  }
+  .products{
+    border-bottom: 4px solid white;
+    overflow: hidden;
+}
+
+
+  .contacts h2{
+      text-align:center;
+  }
